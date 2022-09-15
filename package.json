@@ -1,0 +1,17 @@
+{
+  "name": "netlify-express",
+  "version": "1.0.0",
+  "description": "netlify deployment demo express app",
+  "main": "./src/api.js",
+  "author": "alexa3000",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.0.2"
+  }
+}
